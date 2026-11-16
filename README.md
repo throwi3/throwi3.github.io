@@ -1,4 +1,4 @@
-System install /w archinstall.
+thrOS System install /w archinstall.
 
 ## Pre-archinstall Setup
 
