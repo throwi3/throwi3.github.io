@@ -88,7 +88,7 @@ sudo pacman -Syu
 ```
 
 ```
-sudo pacman -S blas-openblas brave-origin-bin cachyos-eac-signing-key cosmic-text-editor cpupower gamemode gamescope krita linux-cachyos-eac mission-center obs-studio octopi papirus-icon-theme protonplus sbctl sbsigntools scx-tools signal-desktop steam systemd-boot-cachyos-signed tpm2-tools xdg-user-dirs
+sudo pacman -S blas-openblas brave-origin-bin cachyos-eac-signing-key cosmic-text-editor cpupower discord gamemode krita linux-cachyos-eac mission-center octopi papirus-icon-theme protonplus sbctl scx-tools signal-desktop steam systemd-boot-cachyos-signed xdg-user-dirs
 ```
 
 > [!IMPORTANT]
