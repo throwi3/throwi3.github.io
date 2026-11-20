@@ -88,14 +88,14 @@ sudo pacman -Syu
 ```
 
 ```
-sudo pacman -S blas-openblas brave-origin-bin cachyos-eac-signing-key cosmic-text-editor cpupower discord gamemode krita linux-cachyos-eac mission-center octopi papirus-icon-theme protonplus sbctl scx-tools signal-desktop steam systemd-boot-cachyos-signed xdg-user-dirs
+sudo pacman -S blas-openblas brave-origin-bin cachyos-eac-signing-key cosmic-text-editor cpupower discord gamemode gst-plugin-va krita linux-cachyos-eac mission-center octopi papirus-icon-theme protonplus reflector sbctl scx-tools signal-desktop steam systemd-boot-cachyos-signed xdg-user-dirs
 ```
 
 > [!IMPORTANT]
 > Append `linux-cachyos-eac-nvidia-open` to the end of the command above for Nvidia GPU Systems
 
 ```
-systemctl enable cpupower; systemctl enable scx_loader
+systemctl enable cpupower; systemctl enable reflector.timer; systemctl enable scx_loader
 ```
 
 ```
